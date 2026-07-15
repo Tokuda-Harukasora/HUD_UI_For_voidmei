@@ -50,35 +50,7 @@ Transforms VoidMei's HUD into a **modern fighter jet tape-instrument style** (F-
 
 ## Installation / 安装
 
-### For new users / 新用户（完整包）
-
-1. Download and extract the ZIP / 下载并解压ZIP
-2. Double-click `VoidMei.bat` or run / 双击运行：
-   ```
-   java -jar VoidMei.jar
-   ```
-3. Requires **Java 8** (1.8.x) — [Download Eclipse Temurin 8](https://adoptium.net/download/)
-4. 需要 **Java 8** (1.8.x)
-
-### For existing VoidMei users / 已有 VoidMei 的用户
-
-1. **Backup** your original files:
-   ```
-   copy VoidMei.jar VoidMei.jar.bak
-   copy ui_layout.cfg ui_layout.cfg.bak
-   ```
-
-2. **Replace** the files:
-   - Copy `VoidMei.jar` → your VoidMei folder (overwrite)
-   - Copy `ui_layout.cfg` → your VoidMei folder (overwrite)
-
-3. **Delete** your user config to pick up new defaults (optional):
-   - Delete `ui_layout.user.cfg` (it will be regenerated from the new template)
-   - Or manually change `fontNum` / `fontLabel` `:value` to `#1BFF80FF` in your `ui_layout.user.cfg`
-
-4. Run / 运行: `java -jar VoidMei.jar`
-
-### 已有 VoidMei 的用户
+0.安装 https://github.com/matrixsukhoi/voidmei
 
 1. **备份**原文件：
    ```
