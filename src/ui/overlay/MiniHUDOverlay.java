@@ -206,7 +206,7 @@ public class MiniHUDOverlay extends DraggableOverlay implements FlightDataListen
         lineAoA = String.format("α%3.0f", 20.0);
         relEnergy = "E114514";
 
-        if (hudSettings.isAoADisabled()) {
+        if (!hudSettings.showHUDAoA()) {
             lineAoA = "";
             relEnergy = "";
         }

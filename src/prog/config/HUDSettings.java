@@ -3,6 +3,8 @@ package prog.config;
 /**
  * Interface for reading HUD-specific configurations.
  * Decouples the UI layer from underlying key names and parsing logic.
+ * 
+ * Based on VoidMei 1.583 interface + ModernHUD additions.
  */
 public interface HUDSettings extends OverlaySettings {
     String getNumFont();
@@ -44,7 +46,27 @@ public interface HUDSettings extends OverlaySettings {
 
     boolean isSEPLabelDisabled();
 
-    boolean isAoADisabled();
+    boolean showHUDSpeed();
+
+    boolean showHUDAoA();
+
+    boolean showHUDAltitude();
+
+    boolean showHUDEnergy();
+
+    boolean showHUDMechanization();
+
+    boolean showHUDFlaps();
+
+    boolean showHUDAirbrake();
+
+    boolean showHUDGear();
+
+    boolean showHUDSep();
+
+    boolean showHUDGLoad();
+
+    boolean showHUDManeuverBar();
 
     boolean isAttitudeIndicatorInertialMode();
 
@@ -57,5 +79,7 @@ public interface HUDSettings extends OverlaySettings {
      * 启用后使用磁带式空速/高度/航向显示，替代经典行布局。
      * @return true = 现代战机HUD风格（默认）
      */
-    boolean isModernHudStyle();
+    default boolean isModernHudStyle() {
+        return true;
+    }
 }
