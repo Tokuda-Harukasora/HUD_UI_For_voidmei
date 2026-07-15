@@ -1,6 +1,6 @@
 # VoidMei Modern Fighter HUD / 现代战斗机HUD风格
 
-**Version:** 1.581 | **Date:** 2026-07
+**Version:** 1.0| **Date:** 2026-07
 
 将 VoidMei 的 HUD 界面改造为 **现代战斗机磁带式仪表风格**（F-16 / F-35），全绿色单色渲染。
 
@@ -177,7 +177,7 @@ Modified / 修改:
 
 ## License / 许可
 
-Same as VoidMei project. / 与 VoidMei 项目相同。
+GPL-3.0
 
 ---
 
