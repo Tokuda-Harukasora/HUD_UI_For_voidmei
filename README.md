@@ -10,18 +10,7 @@ Transforms VoidMei's HUD into a **modern fighter jet tape-instrument style** (F-
 
 ## Screenshots / 截图
 
-```
-┌─────────────────────────────────────────┐
-│              HEADING TAPE               │  ← 水平航向带
-├──────┬─────────────────────┬────────────┤
-│ IAS  │                     │ ALT TAPE   │
-│ TAPE │    ATTITUDE GAUGE   │   + VSI    │  ← 空速/高度磁带 + 升降率
-│      │      (center)       │            │
-│  G   │                     │            │
-├──────┴─────────────────────┴────────────┤
-│       ENGINE STRIP (THR + %)            │  ← 发动机信息
-└─────────────────────────────────────────┘
-```
+<img width="2556" height="1408" alt="e3fd6b584161b0766521ada619f59285" src="https://github.com/user-attachments/assets/75e6dbc9-10d4-4ac3-aa23-c73c70cf0181" />
 
 ---
 
